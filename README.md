@@ -1,11 +1,15 @@
 # iCloud3 - Development/Prerelease
 
-[![CurrentVersion](https://img.shields.io/badge/Current_Version-v3.7.3-orange.svg)](https://github.com/gcobb321/icloud3)   [![Released](https://img.shields.io/badge/Released-August,_2026-orange.svg)](https://github.com/gcobb321/icloud3) [![HACS](https://img.shields.io/badge/HACS-Standard_Installation-darkorange.svg)](https://github.com/gcobb321/icloud3)
+[![GitHub Release][releases-shield]][releases] [![GitHub Release Date][release-date-shield]][releases] [![hacs][hacsbadge]][hacs]
 
- [![Type](https://img.shields.io/badge/Type-Custom_Component-forestgreen.svg)](https://github.com/gcobb321/icloud3)   [![ProjectStage](https://img.shields.io/badge/Project_Stage-General_Availability-forestgreen.svg)](https://github/gcobb321/icloud3) 
+[![Type][type-shield]][repo] [![ProjectStage][stage-shield]][repo]
 
+[![Integration Usage][integration-usage-shield]][releases]
 
-
+[![GitHub Downloads][downloads-shield]][releases]
+[![GitHub Latest Downloads][downloads-latest-shield]][releases]
+[![GitHub Activity][commits-shield]][commits]
+[![License][license-shield]](LICENSE)
 
 iCloud3 is a device tracker custom component that tracks your iPhones, iPads and Apple Watches. Devices in the Family Sharing List and the HA Mobile App Integration are trackable. The device requests location data from from Apple's iCloud  Location Services and monitors various Mobile App sensors and triggers to determine the device's  battery level, location, distance, travel time and arrival to Home. 
 
@@ -115,5 +119,17 @@ The screens below are an example of how the many tracking sensors can be display
 -----
 *Gary Cobb, aka GeeksterGary*
 
-
-
+[releases]: https://github.com/gcobb321/icloud3_v3/releases
+[releases-shield]: https://img.shields.io/github/v/release/gcobb321/icloud3_v3?label=Current%20Version&color=orange
+[release-date-shield]: https://img.shields.io/github/release-date/gcobb321/icloud3_v3?label=Released&color=orange
+[hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg
+[hacs]: https://hacs.xyz
+[repo]: https://github.com/gcobb321/icloud3_v3
+[type-shield]: https://img.shields.io/badge/Type-Custom_Component-forestgreen.svg
+[stage-shield]: https://img.shields.io/badge/Project_Stage-General_Availability-forestgreen.svg
+[integration-usage-shield]: https://img.shields.io/badge/dynamic/json?color=41BDF5&logo=home-assistant&label=integration%20usage&suffix=%20installs&cacheSeconds=15600&url=https%3A%2F%2Fanalytics.home-assistant.io%2Fcustom_integrations.json&query=%24.icloud3.total
+[downloads-shield]: https://img.shields.io/github/downloads/gcobb321/icloud3_v3/total?label=total%20downloads
+[downloads-latest-shield]: https://img.shields.io/github/downloads/gcobb321/icloud3_v3/latest/total
+[commits]: https://github.com/gcobb321/icloud3_v3/commits/main
+[commits-shield]: https://img.shields.io/github/last-commit/gcobb321/icloud3_v3
+[license-shield]: https://img.shields.io/github/license/gcobb321/icloud3_v3?color=blue
